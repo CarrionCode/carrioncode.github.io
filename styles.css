@@ -10,7 +10,7 @@ body {
 }
 
 .header-background {
-    background-image: url(.\\internet.jpg);
+    background-image: url("carrioncode.github.io/internet.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
