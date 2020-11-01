@@ -1,0 +1,212 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Oswald;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.header-background {
+    background-image: url("C:\\Front-End Developing\\Projects\\Website design system\\resources\\internet.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 260px;
+    margin: 0% 15%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1.header-content {
+    float: right;
+    box-shadow: -5px 5px 15px #1D4E8A;
+    background-color: #6692C8;
+    color: #FFF;
+    padding: 20px 25px;
+    width: 600px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 15px;
+    font-size: 45px;
+    font-style: italic;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.navigation {
+    position: relative;
+    padding: 0.5px 0px;
+    width: 100%;
+    background-color: #6692C8;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    top: 210px;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.navigation ul {
+    text-align: left;
+}
+
+.navigation li {
+    padding: 16px 45px;
+    display: inline;
+    margin-right: 30px;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-family: Oswald;
+    color: #FFF;
+}
+
+.navigation li:hover {
+    background-color: #FFF;
+    color: #6692C8;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    transition: background-color .3s ease-in, color .3s ease-out, border-radius .3s ease-in;
+}
+
+.navigation li:active {
+    opacity: 0.75;
+}
+
+.content {
+    border: 3px solid #6692C8;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 20px;
+}
+
+h2.heading {
+    position: relative;
+    bottom: 30px;
+    padding: 20px 50px;
+    font-size: 32px;
+    font-weight: 900;
+    text-align: left;
+    background-color: #6692C8;
+    color: #FFF;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.color div {
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.color span {
+    position: relative;
+    top: 40%;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.cyan {
+    background-color: #00FFFF;
+}
+
+.blue {
+    background-color: #0000FF;
+}
+
+.green {
+    background-color: #4FE0B0;
+}
+
+.magenta {
+    background-color: #FF00FF;
+}
+
+.purple {
+    background-color: #9400D3;
+}
+
+/* Fonts CSS */
+
+.fonts  div {
+    display: inline-block;
+    margin-right: 150px;
+}
+
+.font1 {
+    font-family: "Source Code Pro";
+}
+
+.font1 h3 {
+    font-size: 24px;
+}
+
+.font1 ul {
+    list-style: none;
+}
+
+.font1 li {
+    font-size: 20px;
+}
+
+.font2 {
+    font-family: "Poppins";
+}
+
+.font2 h3 {
+    font-size: 24px;
+}
+
+.font2 ul {
+    list-style: none;
+}
+
+.font2 li {
+    font-size: 20px;
+}
+
+.font3 {
+    font-family: "Nunito Sans";
+}
+
+.font3 h3 {
+    font-size: 24px;
+}
+
+.font3 ul {
+    list-style: none;
+}
+
+.font3 li {
+    font-size: 20px;
+}
+
+
+/* Headings CSS */
+
+.heading-content {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.heading-content h1 {
+    font-family: "Nunito Sans";
+}
+
+ul.h1 {
+    font-family: "Nunito Sans";
+}
+
+.heading-content h2, ul.h2, .heading-content p, ul.p {
+    font-family: "Poppins";
+}
